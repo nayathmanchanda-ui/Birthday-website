@@ -109,7 +109,7 @@ const App: React.FC = () => {
     return () => window.removeEventListener('scroll', handleScroll);
   }, []);
 
-  const birthdayMessage = "Happy birthday Jhalak!!, Celebrate your special day with utmost joy. You have been by my side every time and helped me through my hardest moments. I will always be grateful to have you as my friend. In another life too i will choose u as my friend.I hope you have a great future ahead. goated advice giver tbh, party chaiye (non-negotiable). ";
+  const birthdayMessage = "Happy birthday Aanhad!!, Celebrate your special day with utmost joy. I will always be grateful to have you as my friend. You have been by my side every time and helped me through my hardest moments. you will forever have a special place in my heart. In another life I will choose you as my friend too. I hope you have a great future ahead.(stop obsessing over usnatble lore), holy yapper btw , party chaiye (non-negotiable).";
 
   return (
     <div className="relative min-h-screen selection:bg-pink-200 bg-white">
