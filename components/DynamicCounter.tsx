@@ -12,7 +12,7 @@ const DynamicCounter: React.FC<DynamicCounterProps> = ({ count, x, y, isBlown })
   if (count === 0 || isBlown) return null;
 
   // Calculate font size: starts at 2rem and grows with each tap
-  const fontSize = 2 + (count * 0.4); // e.g., tap 16 is 2 + 6 = 8rem
+  const fontSize = 2 + (count * 0.4); // e.g., tap 15 is 2 + 6 = 8rem
   
   return (
     <div 
