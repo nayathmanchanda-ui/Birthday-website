@@ -71,7 +71,7 @@ const App: React.FC = () => {
     setTapEffects(prev => [...prev, newEffect]);
 
     // Check if blown
-    if (nextTaps >= 15) {
+    if (nextTaps >= 75) {
       setIsBlown(true);
       setTimeout(() => {
         setShowContent(true);
@@ -133,7 +133,7 @@ const App: React.FC = () => {
           style={{ opacity: instructionOpacity }}
         >
           <h1 className="text-2xl md:text-3xl font-medium text-indigo-900 mb-2">
-            Tap 15 times to blow the candle 🎂
+            Tap 75 times to blow the candle 🎂
           </h1>
           <p className="text-gray-400">A special wish for a special year</p>
         </div>
@@ -152,7 +152,7 @@ const App: React.FC = () => {
         {isBlown && (
           <div className="mt-8 animate-zoom-in z-20">
             <h2 className="fancy-font text-5xl md:text-7xl text-transparent bg-clip-text bg-gradient-to-r from-blue-500 to-blue-800">
-              Happy 75th Birthday! 🎉
+              Happy 75th Birthday NANUU!!! 🎉🎉
             </h2>
           </div>
         )}
