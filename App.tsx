@@ -109,7 +109,7 @@ const App: React.FC = () => {
     return () => window.removeEventListener('scroll', handleScroll);
   }, []);
 
-  const birthdayMessage = "Happy birthday nirmayyyyyyy!!, Celebrate your special day with utmost joy. I will always be grateful to have you as my best friend. You have been by my side every time  we were best freinds from 7th always and helped me through my hardest moments. you will forever have a special place in my heart. i am very lucky to have you, In another life I will choose you as my friend too. I hope you have a great future ahead.stop being depressed nga, party chaiye (non-negotiable).";
+
 
   return (
     <div className="relative min-h-screen selection:bg-pink-200 bg-white">
@@ -152,62 +152,15 @@ const App: React.FC = () => {
         {isBlown && (
           <div className="mt-8 animate-zoom-in z-20">
             <h2 className="fancy-font text-5xl md:text-7xl text-transparent bg-clip-text bg-gradient-to-r from-blue-500 to-blue-800">
-              Happy 15th Birthday! 🎉
+              Happy 75th Birthday! 🎉
             </h2>
           </div>
         )}
 
-        {/* Scroll Indicator - Lowered to bottom-4 and bounce animation removed */}
-        {showContent && (
-          <div className="absolute bottom-1 text-indigo-400 z-20 opacity-80">
-            <p className="mb-1 text-xs font-semibold uppercase tracking-widest">Scroll Down</p>
-            <i className="fa-solid fa-chevron-down text-xl"></i>
-          </div>
-        )}
+        
       </section>
 
-      {/* Hidden Content revealed after celebration */}
-      {showContent && (
-        <main className="max-w-4xl mx-auto py-20 px-6">
-          
-          {/* Message Section */}
-          <section className="reveal mb-24 text-center">
-            <h3 className="fancy-font text-4xl text-indigo-900 mb-8">A Message for You </h3>
-            <div className="bg-white shadow-2xl rounded-3xl p-8 md:p-12 border border-pink-50 relative overflow-hidden">
-              <div className="absolute top-0 left-0 w-2 h-full bg-gradient-to-b from-pink-400 to-indigo-500"></div>
-              <div className="text-lg md:text-xl text-gray-700 leading-relaxed italic min-h-[150px]">
-                <TypingText 
-                  text={birthdayMessage} 
-                  speed={35} 
-                  delay={1000} 
-                />
-              </div>
-            </div>
-          </section>
-
-          {/* Quote Section */}
-          <section className="reveal mb-24 flex flex-col items-center">
-            <div className="relative p-8 md:p-12 text-center max-w-2xl">
-              <i className="fa-solid fa-quote-left absolute top-0 left-0 text-5xl text-indigo-100 -z-10"></i>
-              <p className="text-2xl md:text-3xl font-light text-indigo-900 mb-6 italic">
-                "Life is not coming at you, It is coming from you"
-              </p>
-              <span className="text-pink-600 font-bold tracking-widest uppercase">— Unknown </span>
-              <i className="fa-solid fa-quote-right absolute bottom-0 right-0 text-5xl text-indigo-100 -z-10"></i>
-            </div>
-          </section>
-
-          {/* Footer */}
-          <footer className="text-center text-gray-400 py-10">
-            <p className="mb-2 italic">Wishing you the best 15th year yet!</p>
-            <div className="flex justify-center space-x-4">
-              <i className="fa-solid fa-cake-candles"></i>
-              <i className="fa-solid fa-gift"></i>
-              <i className="fa-solid fa-balloon"></i>
-            </div>
-          </footer>
-        </main>
-      )}
+     
     </div>
   );
 };
